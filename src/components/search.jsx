@@ -1,7 +1,20 @@
+
+import React from "react";
+import { IoSearchOutline } from "react-icons/io5";
+
+
+
+
+
 const Search = () => {
   return (
-    <div>
-      
+    <div className="search bg-[#E6E6E6] w-[600px] h-[50px] rounded-md px-4 relative">
+      <input type="text" className="w-full h-full  outline-none border-0 placeholder:text-gray-500" placeholder="Search for product..." />
+       <button    className='w-10 h-10 rounded-full bg-gray-00 absolute top-[5px] right-2 z-50 flex items-center 
+       justify-center cursor-pointer hover:bg-gray-200 transition-colors duration-300'> 
+        <IoSearchOutline size={25} /> 
+        </button>
+     
     </div>
   );
 };
