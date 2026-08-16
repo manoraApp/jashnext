@@ -2,35 +2,59 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Search from "./Search";
-
-
-
-
+import { FaRegHeart } from "react-icons/fa";
+import { PiHandbagBold } from "react-icons/pi";
 
 const Header = () => {
   return (
-    <header className="py-3">
-    <div className="container flex items-center justify-between px-0">
-      <div className="logo flex justify-left items-center pl-0">
-        <Link href={"/"}>
-        <Image src={"/logo.png"} alt="Logo" width={230} height={61} />
-        </Link>
+    <header className="py-3 border-b-[1px] border-[rgba (0,0,0,0.3)]">
+      <div className="container flex items-center justify-between px-0">
+        <div className="logo flex justify-left items-center pl-0">
+          <Link href={"/"}>
+            <Image src={"/logo.png"} alt="Logo" width={230} height={61} />
+          </Link>
+        </div>
+
+        <Search />
+
+        <div className="flex items-center gap-4">
+          <Link href={"/login"} className="hover:text-primary">
+            Login
+          </Link>
+          <span>|</span>
+          <Link href={"/register"} className="hover:text-primary">
+            Register
+          </Link>
+        </div>
+
+        <div className="flex items-center gap-4">
+          <Link href={"/wishlist"} className="relative flex">
+            <span className="bg-[#ff0000] w-6 h-6 text-white rounded-full flex item-center justify-center
+            absolute -top-[10px] left-[17px] z-50">
+              3
+            </span>
+            <FaRegHeart size={25} className="text-gray-700" />
+          </Link>
+
+          <Link href={"/cart"} className="relative flex">
+            <span className="bg-[#ff1100] w-6 h-6 text-white rounded-full flex item-center justify-center
+            absolute -top-[10px] left-[17px] z-50">
+              3
+            </span>
+            <PiHandbagBold size={30} className="text-gray-700" />
+          </Link>
+        </div>
+
+        
       </div>
-      <Search/>
-
-      <div className="flex items-center gap-4">
-        <Link href={"/login"} className="text-gray-700 hover:text-gray-900 transition-colors duration-300">
-          Login
-        </Link>
-        <Link href={"/signup"} className="text-gray-700 hover:text-gray-900 transition-colors duration-300">
-          Sign Up
-        </Link>
-      </div>
-    </div>
-
-
+   
+      
     </header>
+    
   );
 };
 
 export default Header;
+
+
+

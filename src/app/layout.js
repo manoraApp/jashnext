@@ -5,7 +5,7 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "jasNext",
+  title: "jasNext1",
   description: "jashpur walo ke liye",
 };
 
