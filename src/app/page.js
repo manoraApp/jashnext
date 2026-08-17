@@ -1,12 +1,16 @@
-import Image from "next/image";
+import HomeSlider from '@/components/HomeSlider';
 
 export default function Home() {
   return (
-    <>
-    <h1 className="text-red-500 text-3xl font-bold">
+  <>
+   <div className="sliderWrapper bg-[#FAFAFA] py-4">
+    
+    
+    <HomeSlider/>
 
-      
-    </h1>
+    </div>
+
+
     </>
   );
 }
