@@ -22,8 +22,7 @@ const HomeSlider = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          className="mySwiper"
-        >
+          className="mySwiper">
           <SwiperSlide>
             <div className="item">
               <img src="/slide1.png" alt="slide1" width={1344} height={500} />
