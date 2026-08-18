@@ -3,4 +3,8 @@
 @theme { --color-primary: #1d4ed8;  --color-secondary: #facc15;  --color-accent: #10b981;  --color-background: #f3f4f6;  --color-text: #111827;  --color-border: #e5e7eb;  --color-muted: #9ca3af;  --color-success: #10b981;  --color-warning: #f59e0b;  --color-error: #ef4444;
     }
 
-    .container{width: 96%;  margin: 0 0 0 0;  padding: 0 1rem;}
+    .container{width: 96%;  margin: auto;}
+.swiper-button-next, .swiper-button-prev{display:flex;  align-items:center;  justify-content:center;  width: 50px !important;background:#fff !important ; border-radius: 100% !important;}
+.swiper-button-next svg,swiper-button-prev
+    svg{width: 20px !important; height: 20px !important; color:#000 !important;}                    
+    
