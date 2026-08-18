@@ -14,7 +14,7 @@ const Header = () => {
           <div className="container flex items-center justify-between px-0">
             <div className="logo flex justify-left items-center pl-0">
               <Link href={"/"}>
-                <Image src={"/logo.png"} alt="Logo" width={230} height={61} />
+                <Image src={"/logo1.png"} alt="Logo" width={230} height={61} />
               </Link>
             </div>
 
