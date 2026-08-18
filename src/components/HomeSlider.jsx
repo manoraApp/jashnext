@@ -31,13 +31,25 @@ const HomeSlider = () => {
 
           <SwiperSlide>
             <div className="item">
-              <img src="/slide1.png" alt="slide1" width={1344} height={500} />
+              <img src="/slide2.png" alt="slide2" width={1344} height={500} />
             </div>
           </SwiperSlide>
 
           <SwiperSlide>
             <div className="item">
-              <img src="/slide1.png" alt="slide1" width={1344} height={500} />
+              <img src="/slide3.png" alt="slide3" width={1344} height={500} />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="item">
+              <img src="/slide4.png" alt="slide4" width={1344} height={500} />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="item">
+              <img src="/slide5.png" alt="slide5" width={1344} height={500} />
             </div>
           </SwiperSlide>
         </Swiper>
