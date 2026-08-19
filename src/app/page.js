@@ -9,6 +9,7 @@ export default function Home() {
     
     <HomeSlider/>
     <CatSlider/>
+  
 
     </div>
 
