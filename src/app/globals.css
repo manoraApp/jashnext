@@ -38,6 +38,13 @@
 .swiper-button-next:hover svg,
 .swiper-button-prev:hover svg {color: #fff !important;}
 
+.Muitabs-list button{gont-weight:600 !important}
+.Muitabs-list .Mui-selected{@apply !text-primary}
+.Mui-indicators{background-color: #02B290 !important;}
+
+.MuiTabScrollButton-root svg {font-size: 20px !important; width:20px!important; height:20px !important }
+
+
 
 
 
