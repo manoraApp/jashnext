@@ -18,11 +18,11 @@ const Nav = () => {
         <div className='relative group'>
             
             <span className='text-[15px] text-gray-800 font-[600] hover:text-primary flex items-center gap-1
-            cursor-pointer'>More <FaAnglesDown size={18}/> </span>
+            cursor-pointer z-index: 9999'>More <FaAnglesDown size={18}/> </span>
 
          <div className='dropdown-menu flex flex-col absolute top-full right-2px bg-orange-100 shadow-md rounded-md
-        overflow-hidden w-[200px] invisible opacity-0 transition-all duration-200 group-hover:opacity-100 group-hover:visible pt-4'>
-           
+         w-[200px] invisible opacity-0 transition-all duration-200 group-hover:opacity-100 group-hover:visible pt-4 '>
+          
 
             <Link href= '/' className='text-[16px] text-gray-800 font-[600] hover:text-primary'>jp-olx</Link>
              <Link href= '/' className='text-[16px] text-gray-800 font-[600] hover:text-primary'>Beverages</Link>
