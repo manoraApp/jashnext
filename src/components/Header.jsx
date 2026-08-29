@@ -9,7 +9,7 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <>
-      <div className="headerwrapper">
+      <div className="headerwrapper ">
         <header className="py-3 border-b-[1px] border-[rgba (0,0,0,0.1)]">
           <div className="container flex items-center justify-between px-0">
             <div className="logo flex justify-left items-center pl-0">

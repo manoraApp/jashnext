@@ -13,16 +13,19 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const HomeSlider = () => {
   return (
-    <div className="homeSlider">
-      <div className="container">
-        <Swiper
+    <div className="homeSlider  ">
+      <div className="container ">
+        <Swiper 
+         
           navigation={true}
+    
           modules={[Navigation, Autoplay]}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
+            
           }}
-          className="mySwiper">
+          className="mySwiper relative z-0">
           <SwiperSlide>
             <div className="item">
               <img src="/slide1.png" alt="slide1" width={1344} height={500} />

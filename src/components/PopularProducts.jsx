@@ -3,6 +3,7 @@ import React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import ProductSlider from "./ProductSlider";
+import { SwiperSlide } from "swiper/react";
 
 const PopularProducts = () => {
   const [value, setValue] = React.useState(0);
@@ -32,13 +33,21 @@ const PopularProducts = () => {
               scrollButtons="auto"
               aria-label="scrollable auto tabs example"
             >
+              
+
               <Tab label="Item One" />
+        
               <Tab label="Item Two" />
               <Tab label="Item Three" />
               <Tab label="Item Four" />
               <Tab label="Item Five" />
               <Tab label="Item Six" />
               <Tab label="Item Seven" />
+              <Tab label="Item Eight" />
+              <Tab label="Item Nine" />
+              <Tab label="Item Ten" />
+              <Tab label="Item Eleven" />
+             
             </Tabs>
           </div>
         </div>

@@ -36,7 +36,7 @@
 .swiper-button-prev:hover {@apply !bg-primary}
 
 .swiper-button-next:hover svg,
-.swiper-button-prev:hover svg {color: #fff !important;}
+.swiper-button-prev:hover svg {color: #e6d6d6 !important;}
 
 .Muitabs-list button{font-weight:600 !important}
 .Muitabs-list .Mui-selected{@apply !text-primary}

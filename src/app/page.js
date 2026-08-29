@@ -1,6 +1,7 @@
 import HomeSlider from '@/components/HomeSlider';
 import CatSlider from '@/components/CatSlider';
 import PopularProducts from '@/components/PopularProducts';
+import Banners from '@/components/Banners';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <HomeSlider/>
     <CatSlider/>
     <PopularProducts/>
+    <Banners/>
   
 
     </div>
