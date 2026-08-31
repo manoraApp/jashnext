@@ -1,23 +1,34 @@
-import HomeSlider from '@/components/HomeSlider';
-import CatSlider from '@/components/CatSlider';
-import PopularProducts from '@/components/PopularProducts';
-import Banners from '@/components/Banners';
+import HomeSlider from "@/components/HomeSlider";
+import CatSlider from "@/components/CatSlider";
+import PopularProducts from "@/components/PopularProducts";
+import Banners from "@/components/Banners";
+import ProductSlider from "@/components/ProductSlider";
+
+
+import ProductRow from "@/components/ProductRow";
 
 export default function Home() {
   return (
-  <>
-   <div className="sliderWrapper bg-[#FAFAFA] py-4">
-    
-    
-    <HomeSlider/>
-    <CatSlider/>
-    <PopularProducts/>
-    <Banners/>
-  
+    <>
+      <div className="sliderWrapper bg-[#FAFAFA] py-4">
+        <HomeSlider />
+        <CatSlider />
+        <PopularProducts />
+        <Banners />
 
-    </div>
+        <ProductRow title={"Latest products"}/>
+        <ProductRow title={"Feature products"}/>
+        <ProductRow title={"BreakFast & Dairy"}/>
+       
+
+       
+       
 
 
+
+         
+
+      </div>
     </>
   );
 }

@@ -10,7 +10,7 @@ import { Navigation } from "swiper/modules";
 
 const ProductSlider = () => {
   return (
-    <div className="productSlider y-8">
+    <div className="productSlider">
       <Swiper
       slidesPerView={6}
         spaceBetween={30}

@@ -83,7 +83,7 @@ const Nav = () => {
                 href="/"
                 className="text-[16px] text-gray-800 font-[600] hover:text-primary"
               >
-           JAMIN
+                JAMIN
               </Link>
             </ul>
 
@@ -102,7 +102,7 @@ const Nav = () => {
                 href="/"
                 className="text-[16px] text-gray-800 font-[600] hover:text-primary"
               >
-         CAR
+                CAR
               </Link>
             </ul>
 
@@ -111,7 +111,7 @@ const Nav = () => {
                 href="/"
                 className="text-[16px] text-gray-800 font-[600] hover:text-primary"
               >
-              ADVERTISEMENT
+                ADVERTISEMENT
               </Link>
             </ul>
 
@@ -120,7 +120,7 @@ const Nav = () => {
                 href="/"
                 className="text-[16px] text-gray-800 font-[600] hover:text-primary"
               >
-             JASHPUR
+                JASHPUR
               </Link>
             </ul>
           </div>
