@@ -3,6 +3,7 @@ import CatSlider from "@/components/CatSlider";
 import PopularProducts from "@/components/PopularProducts";
 import Banners from "@/components/Banners";
 import ProductSlider from "@/components/ProductSlider";
+import Footer from "@/components/Footer";
 
 
 import ProductRow from "@/components/ProductRow";
@@ -19,6 +20,10 @@ export default function Home() {
         <ProductRow title={"Latest products"}/>
         <ProductRow title={"Feature products"}/>
         <ProductRow title={"BreakFast & Dairy"}/>
+
+
+
+        <Footer />
        
 
        
