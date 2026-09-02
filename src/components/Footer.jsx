@@ -2,7 +2,8 @@ import { LiaGiftSolid, LiaShippingFastSolid } from "react-icons/lia";
 import { PiKeyReturnLight } from "react-icons/pi";
 import { BsWallet2 } from "react-icons/bs";
 import { BiSupport } from "react-icons/bi";
-
+import {hr} from '../app/globals.css'
+import Link from "next/link";
 
 
 const Footer = () => {
@@ -66,9 +67,29 @@ const Footer = () => {
       </div>
     
 
+   <hr/>
 
+
+   <div className=" flex justify-between py-4">
+      <div className='col1 flex flex-col gap-4 '>
+        <h3 className='text-[20px] font-[600] text-gray-700'>Contact Us </h3>
+        <p className='text-[14px] font-[400] ' > JasNext aapka jashpur market </p>
+
+        <br/>
+
+
+        507 Jashpur, Chhattisgarh, India <br/>
+        Phone: +91 8770262231 <br/>
+      
+        <Link href='{jashpur.app@gmail.com}'className='text-gray-700 font-[600] text-[15px] hover:text-primary'>
+        manora.app@gmail.com</Link>
+
+        <span className="text-[20px] font-bold text-primary"> (+91) 8770262231</span>
+      </div> 
+    </div>
 
     </footer>
+ 
 
 
 
