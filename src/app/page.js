@@ -2,7 +2,7 @@ import HomeSlider from "@/components/HomeSlider";
 import CatSlider from "@/components/CatSlider";
 import PopularProducts from "@/components/PopularProducts";
 import Banners from "@/components/Banners";
-import ProductSlider from "@/components/ProductSlider";
+
 import Footer from "@/components/Footer";
 
 

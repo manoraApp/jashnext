@@ -2,11 +2,13 @@ import { LiaGiftSolid, LiaShippingFastSolid } from "react-icons/lia";
 import { PiKeyReturnLight } from "react-icons/pi";
 import { BsWallet2 } from "react-icons/bs";
 import { BiSupport } from "react-icons/bi";
-import { hr } from "../app/globals.css";
+
 import Link from "next/link";
 import { IoChatbubbleOutline } from "react-icons/io5";
-import { FaFacebookF, FaInstagram, FaPinterestP } from "react-icons/fa";
+import { FiFacebook } from "react-icons/fi";
 import { AiOutlineYoutube } from "react-icons/ai";
+import { FaInstagram } from "react-icons/fa";
+import { PiWhatsappLogoLight } from "react-icons/pi";
 
 const Footer = () => {
   return (
@@ -208,9 +210,6 @@ const Footer = () => {
           </div>
         </div>
 
-
-
-
         <div className="col2 flex w-[25%] flex-col gap-4  border-r-1 border-gray-300 pr-4">
           <div className="box">
             <h3 className="text-[20px] font-[600] text-gray-700">
@@ -218,66 +217,102 @@ const Footer = () => {
               SUBSCRIBE TO OUR NEWSLETTER
             </h3>
             <p className="text-[14px] mt-3">
-              Subscribe to Our Latest newsletter and Promotions to stay updated. We promise not to spam you.
+              Subscribe to Our Latest newsletter and Promotions to stay updated.
+              We promise not to spam you.
             </p>
 
             <form className="flex flex-col gap-2 mt-3">
-              <input type="email" placeholder="Enter your email" className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary" />
-              <button type="submit" className="bg-primary text-white py-2 px-4 rounded-md hover:bg-primary-dark transition-colors duration-300">Subscribe</button>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary"
+              />
+              <button
+                type="submit"
+                className="bg-primary text-white py-2 px-4 rounded-md hover:bg-primary-dark transition-colors duration-300"
+              >
+                Subscribe
+              </button>
             </form>
           </div>
         </div>
       </div>
       <hr />
 
-      <div className='bottomStrip py-3'>
-        <div className='container flex justify-between gap-4'>
-
-
-
-          <div className='social flex items-center gap-2 '>
-            <Link href={"/"} className="flex items-center justify-center bg-blue-300 rounded-full border border-[0 ,0,0,0.1] w-[30px] h-[30px] hover:bg-primary hover:text-white transition-all duration-300">
-
-              <FaFacebookF size={20} className='text-gray-600  group-hover:text-white' />
+      <div className="bottomStrip py-3">
+        <div className="container flex justify-between gap-4">
+          <div className="social flex items-center gap-2 ">
+            <Link
+              href={"/"}
+              className="flex items-center justify-center bg-blue-600 rounded-full border border-[0 ,0,0,0.1] w-[30px] h-[30px] hover:bg-primary hover:text-white transition-all duration-300"
+            >
+              <FiFacebook
+                size={20}
+                className="text-white  group-hover:text-white"
+              />
             </Link>
 
-
-            <Link href={"/"} className="flex items-center justify-center bg-white rounded-full border border-[0 ,0,0,0.1] w-[30px] h-[30px] hover:bg-primary hover:text-white transition-all duration-300">
-
-              <FaPinterestP size={20} className='text-gray-600 group-hover:text-white' />
+            <Link
+              href={"/"}
+              className="flex items-center justify-center bg-green-500 rounded-full border border-[0 ,0,0,0.1] w-[30px] h-[30px] hover:bg-primary hover:text-white transition-all duration-300"
+            >
+              <PiWhatsappLogoLight
+                size={20}
+                className="text-white group-hover:text-white"
+              />
             </Link>
 
-
-            <Link href={"/"} className="flex items-center justify-center bg-white rounded-full border border-[0 ,0,0,0.1] w-[30px] h-[30px] hover:bg-primary hover:text-white transition-all duration-300">
-
-              <FaInstagram size={20} className='text-gray-600 group-hover:text-white' />
+            <Link
+              href={"/"}
+              className="flex items-center justify-center bg-pink-500 rounded-full border border-[0 ,0,0,0.1] w-[30px] h-[30px] hover:bg-primary hover:text-white transition-all duration-300"
+            >
+              <FaInstagram
+                size={20}
+                className="text-white group-hover:text-white"
+              />
             </Link>
 
-
-            <Link href={"/"} className="flex items-center justify-center bg-red-600 rounded-full border border-[0 ,0,0,0.1] w-[30px] h-[30px] hover:bg-primary hover:text-black transition-all duration-300">
-
-              <AiOutlineYoutube size={20} className='text-gray-600 group-hover:text-white' />
+            <Link
+              href={"/"}
+              className="flex items-center justify-center bg-red-600 rounded-full border border-[0 ,0,0,0.1] w-[30px] h-[30px] hover:bg-primary hover:text-white transition-all duration-300"
+            >
+              <AiOutlineYoutube
+                size={20}
+                className="text-white group-hover:text-white"
+              />
             </Link>
           </div>
 
+          <p className="text-[14px] font-[400] item-center text-gray-600">
+            © 2024 JasNext. All Rights Reserved.
+          </p>
+          <div className="flex items-center gap-2">
+            <img
+              src="/phonepe.png"
+              alt="Payment Methods"
+              className="h-[60px] w-auto"
+            />
 
-
-          <p className='text-[14px] font-[400] item-center text-gray-600'>© 2024 JasNext. All Rights Reserved.</p>
-          <div className='flex items-center gap-2'>
-            <img src="/phonepe.png" alt="Payment Methods" className='h-[60px] w-auto' />
-        
-            <img src="/google-pay.png" alt="Payment Methods" className='h-[100px] w-auto' />
-            <img src="/cash pe.png" alt="Payment Methods" className='h-[80px] w-auto' />
-            <img src="/amazon pay.png" alt="Payment Methods" className='h-[80px] w-auto' />
-
+            <img
+              src="/google-pay.png"
+              alt="Payment Methods"
+              className="h-[100px] w-auto"
+            />
+            <img
+              src="/cash pe.png"
+              alt="Payment Methods"
+              className="h-[80px] w-auto"
+            />
+            <img
+              src="/amazon pay.png"
+              alt="Payment Methods"
+              className="h-[80px] w-auto"
+            />
           </div>
         </div>
       </div>
 
-
       <br />
-
-
     </footer>
   );
 };
