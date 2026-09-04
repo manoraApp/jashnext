@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <>
       <div className="sliderWrapper bg-[#FAFAFA] py-4">
-        <HomeSlider />
-        <CatSlider />
-        <PopularProducts />
-        <Banners />
+        <HomeSlider/>
+        <CatSlider/>
+        <PopularProducts/>
+        <Banners/>
 
         <ProductRow title={"Latest products"}/>
         <ProductRow title={"Feature products"}/>

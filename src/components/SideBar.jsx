@@ -11,9 +11,9 @@ import Checkbox from "@mui/material/Checkbox";
 
 const SideBar = () => {
   return (
-    <aside className="sticky top-[150px]">
+    <aside className="sticky top-[150px] w-72 shrink-0 p-4">
       <div className="box">
-        <div className="flex item-center justify-between">
+        <div className="flex item-center justify-between mb-4">
           <h3 className="text-[16px] font-[600] text-gray-700">
             Shop by Category
           </h3>
@@ -21,6 +21,7 @@ const SideBar = () => {
             <LiaAngleDownSolid size={20} className="text-gray-800" />
           </Button>
         </div>
+        <div className="scroll overflow-scroll max-h-[300] ">
 <FormGroup>
   <FormControlLabel control={<Checkbox  />} label="fruits & vegitables"/>
   <FormControlLabel control={<Checkbox  />} label="Meat & Seafood"/>
@@ -37,6 +38,8 @@ const SideBar = () => {
 
 
 
+
+      </div>
       </div>
     </aside>
   );
