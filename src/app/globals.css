@@ -13,43 +13,60 @@
   --color-error: #ef4444;
 }
 
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #14dd90;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
 
 .container {
   width: 96%;
   margin: auto;
 }
+
 .swiper-button-next,
 .swiper-button-prev {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50px !important;
-  background: #fff !important ;
+  background: #fff !important;
   border-radius: 100% !important;
 }
+
 .swiper-button-next svg,
 .swiper-button-prev svg {
   width: 20px !important;
   height: 20px !important;
   color: #000 !important;
 }
+
 .swiper-button-next:hover,
-.swiper-button-prev:hover {@apply !bg-primary}
+.swiper-button-prev:hover {
+  @apply !bg-primary
+}
 
 .swiper-button-next:hover svg,
-.swiper-button-prev:hover svg {color: #e6d6d6 !important;}
+.swiper-button-prev:hover svg {
+  color: #e6d6d6 !important;
+}
 
-.Muitabs-list button{font-weight:600 !important}
-.Muitabs-list .Mui-selected{@apply !text-primary}
-.Mui-indicators{background-color: #02B290 !important;}
+.Muitabs-list button {
+  font-weight: 600 !important
+}
 
-.MuiTabScrollButton-root svg {font-size: 20px !important; width:20px!important; height:20px !important ;}
+.Muitabs-list .Mui-selected {
+  @apply !text-primary
+}
 
-.btn-border-g{border:1px solid #02B290 !important; font-weight: 600 !important; color: #02b290 !important; }
-.btn-border-g:hover{background:#02B290 !important;color: #fff !important; border:1px solid #353535 !important;}
-
-hr{border-color:rgba(0, 0, 0, 0.2) !important}
-
+<<<<<<< HEAD
 .ReactCollapse--collapse {
   transition: height 300ms;
 }
@@ -59,6 +76,32 @@ hr{border-color:rgba(0, 0, 0, 0.2) !important}
 
 .range-slider{height:5 px!important;}
 .range-slider .range-slider__thumb{width: 20px !important; height: 20px !important;}
+=======
+.Mui-indicators {
+  background-color: #02B290 !important;
+}
 
+.MuiTabScrollButton-root svg {
+  font-size: 20px !important;
+  width: 20px !important;
+  height: 20px !important;
+}
 
+.btn-border-g {
+  border: 1px solid #02B290 !important;
+  font-weight: 600 !important;
+  color: #02b290 !important;
+}
+>>>>>>> d1808fda1324ffef93a7d502a8c7a2fc3731fe1f
 
+.btn-border-g:hover {
+  background: #02B290 !important;
+  color: #fff !important;
+  border: 1px solid #353535 !important;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 0.2) !important
+}
+
+/* .scroll::-webkit-scrollbar-thumb {  background: #ccc !important;} */
