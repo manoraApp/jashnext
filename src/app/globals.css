@@ -50,8 +50,15 @@
 
 hr{border-color:rgba(0, 0, 0, 0.2) !important}
 
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}
+.MuiFormGroup-root .Mui-checked .MuiSvgIcon-root {
+  fill:#02B290 !important;
+}
 
-
+.range-slider{height:5 px!important;}
+.range-slider .range-slider__thumb{width: 20px !important; height: 20px !important;}
 
 
 
